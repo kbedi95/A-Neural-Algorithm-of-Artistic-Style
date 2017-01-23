@@ -16,5 +16,5 @@ Running the Application
 
 Sample Results
 ----------------------
-![](http://i.markdownnotes.com/blob_9AgMjYf)
-![](http://i.markdownnotes.com/blob_ssTK8Ru)
+![](/samples/DwadeStarry/Dwade.png) + <img src="/samples/DwadeStarry/starry.jpeg" width="220" height="220"> = ![](/samples/DwadeStarry/DwadeStarry.png)
+
