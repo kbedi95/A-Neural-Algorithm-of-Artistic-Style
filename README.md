@@ -10,8 +10,8 @@ Python 3.5, pip, virtualenv
 Installation
 -----------------
 ```shell
-virtualenv styleEnv
-source bin/activate
+virtualenv styleEnv --python=python3.5
+source styleEnv/bin/activate
 pip install -r requirements.txt
 ```
 
