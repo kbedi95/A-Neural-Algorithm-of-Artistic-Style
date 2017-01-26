@@ -5,14 +5,31 @@ An implementation of the paper [A Neural Algorithm of Artistic Style](https://ar
 
 Dependencies
 --------------------
-
+Python 3.5, pip, virtualenv
 
 Installation
 -----------------
+```shell
+virtualenv styleEnv
+source bin/activate
+pip install -r requirements.txt
+```
 
 
 Running the Application
 --------------
+```shell
+python neuralStyle.py path/to/content_image path/to/style_image
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -tp TARGET_PATH, --target_path TARGET_PATH
+  -cw CONTENT_WEIGHT, --content_weight CONTENT_WEIGHT
+  -sw STYLE_WEIGHT, --style_weight STYLE_WEIGHT
+  -tvw TV_WEIGHT, --tv_weight TV_WEIGHT
+  -it ITERATIONS, --iterations ITERATIONS
+  -f FREQUENCY, --frequency FREQUENCY
+```
 
 Sample Results
 ----------------------
